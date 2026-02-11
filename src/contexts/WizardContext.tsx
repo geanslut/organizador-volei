@@ -195,9 +195,9 @@ function wizardReducer(state: WizardState, action: WizardAction): WizardState {
     }
 
     case 'REDO_DRAW': {
-      // Manter Tier A e B, re-embaralhar apenas Tier C
-      const tierA = state.players.filter(p => p.tier === 'A');
-      const tierB = state.players.filter(p => p.tier === 'B');
+      // Re-embaralhar TODOS os tiers (Capitães entre si, Vices entre si, Resto entre si)
+      const tierA = shuffleArray(state.players.filter(p => p.tier === 'A'));
+      const tierB = shuffleArray(state.players.filter(p => p.tier === 'B'));
       const tierC = shuffleArray(state.players.filter(p => p.tier === 'C'));
 
       const teams: Team[] = Array.from({ length: state.numTeams }, (_, i) => ({
