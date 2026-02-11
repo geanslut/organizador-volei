@@ -23,11 +23,11 @@ export function Step2Professionals() {
   return (
     <div className="min-h-screen bg-[#212121] relative pb-24 px-6 pt-16 max-w-md mx-auto">
       <h2 className="text-white text-center font-['Pathway_Extreme',sans-serif] text-[32px] leading-[1.08] mb-3" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Profissionais
+        Escolha os líderes
       </h2>
       
       <p className="text-[#cecece] text-center font-['DM_Sans',sans-serif] font-light text-[12.893px] leading-[1.19] mb-8" style={{ fontVariationSettings: "'opsz' 14" }}>
-        Selecione {state.numTeams} cabeça{state.numTeams !== 1 ? 's' : ''} de chave
+        Selecione {state.numTeams} cabeça{state.numTeams !== 1 ? 's' : ''} chave
       </p>
 
       {/* Container de seleção */}
