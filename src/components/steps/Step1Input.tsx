@@ -169,14 +169,14 @@ export function Step1Input() {
         </div>
 
         {/* Indicador de passo */}
-        <div className="mt-6 flex flex-col items-center gap-6 pb-4">
+        <div className="mt-6 flex flex-col items-center gap-12 pb-8">
           <div className="border border-white/20 rounded-[25.764px] px-5 py-2">
             <p className="text-white text-center font-['Pathway_Extreme',sans-serif] text-[13px] leading-[1.2]" style={{ fontVariationSettings: "'wdth' 100" }}>
               passo 1 de 4
             </p>
           </div>
 
-          <p className="text-[#666666] font-['DM_Sans',sans-serif] text-[12px] lowercase text-center max-w-[300px] leading-tight">
+          <p className="text-[#cecece] font-['DM_Sans',sans-serif] text-[12px] lowercase text-center max-w-[300px] leading-tight opacity-50">
             @App criado para acabar com as reclamações de panelinha mencionadas pelo Geilson.
           </p>
         </div>
