@@ -37,13 +37,6 @@ export function WizardFlow() {
           {getStepComponent()}
         </motion.div>
       </AnimatePresence>
-      
-      {/* Rodapé com a frase do Geilson */}
-      <footer className="absolute bottom-4 left-0 right-0 text-center px-6 pointer-events-none">
-        <p className="text-[#666666] font-['DM_Sans',sans-serif] text-[12px] lowercase mx-auto max-w-[300px] leading-tight">
-          @App criado para acabar com as reclamações de panelinha mencionadas pelo Geilson.
-        </p>
-      </footer>
     </div>
   );
 }
