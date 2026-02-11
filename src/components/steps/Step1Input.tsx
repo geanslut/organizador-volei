@@ -169,18 +169,19 @@ export function Step1Input() {
         </div>
 
         {/* Indicador de passo */}
-        <div className="mt-6 flex flex-col items-center gap-28 pb-8">
+        <div className="mt-6 flex justify-center pb-4">
           <div className="border border-white/20 rounded-[25.764px] px-5 py-2">
             <p className="text-white text-center font-['Pathway_Extreme',sans-serif] text-[13px] leading-[1.2]" style={{ fontVariationSettings: "'wdth' 100" }}>
               passo 1 de 4
             </p>
           </div>
-
-          <p className="text-[#cecece] font-['DM_Sans',sans-serif] text-[12px] lowercase text-center max-w-[300px] leading-tight">
-            @App criado para acabar com as reclamações de panelinha mencionadas pelo Geilson.
-          </p>
         </div>
       </div>
+
+      {/* Frase do rodapé posicionada absolutamente no fundo */}
+      <p className="absolute bottom-6 left-0 right-0 text-[#cecece] font-['DM_Sans',sans-serif] text-[12px] lowercase text-center px-6 leading-tight max-w-[300px] mx-auto">
+        @App criado para acabar com as reclamações de panelinha mencionadas pelo Geilson.
+      </p>
     </div>
   );
 }
